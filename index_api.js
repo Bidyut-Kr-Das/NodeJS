@@ -15,6 +15,8 @@ const server = http.createServer((req, response) => {
   const url = req.url;
   if (url === "/api") {
     //Create header for the json to parse
+    //first status code 200 - 300 for normal and 404 for no page found error
+    //second object of headers
     response.writeHead(200, {
       "content-type": "application/json",
     });
@@ -29,5 +31,5 @@ const server = http.createServer((req, response) => {
 
 //Listen to the server just got created
 server.listen(4000, "127.0.0.1", () => {
-  console.log("server started \n Please go to localhost:4000/api");
+  console.log("server started \nPlease go to localhost:4000/api");
 });

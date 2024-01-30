@@ -2,7 +2,7 @@
 
 ## Learning stage :)
 
-## Navigations
+### Navigations
 
 | File Name       | Description                          |
 | --------------- | ------------------------------------ |
