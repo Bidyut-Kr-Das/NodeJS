@@ -9,3 +9,4 @@
 | `index_fs.js`   | application of file system module    |
 | `index_http.js` | Create localhost server from scratch |
 | `index_api.js`  | Create your own very simple api      |
+| `index_async.js`  | Async javaScript with api calls      |

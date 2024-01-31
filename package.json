@@ -2,9 +2,10 @@
   "name": "nodejstut",
   "version": "1.0.0",
   "description": "Learning node js",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js" 
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,12 @@
   "bugs": {
     "url": "https://github.com/Bidyut-Kr-Das/NodeJS/issues"
   },
-  "homepage": "https://github.com/Bidyut-Kr-Das/NodeJS#readme"
+  "homepage": "https://github.com/Bidyut-Kr-Das/NodeJS#readme",
+  "devDependencies": {
+    "nodemon": "^3.0.3",
+    "prettier": "^3.2.4"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
 }
